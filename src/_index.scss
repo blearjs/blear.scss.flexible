@@ -1,0 +1,20 @@
+$desgin-width : 750 !default;
+
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+// px change to rem
+@function px2rem($px) {
+  $one-px-as-such-rem: 750 * 100 / $desgin-width;
+  @return strip-units($px) / $one-px-as-such-rem + rem;
+}
+
+// rem change to px
+@function rem2px($rem) {
+  $one-px-as-such-rem: 750 * 100 / $desgin-width;
+  @return strip-units($rem) * $one-px-as-such-rem + px;
+}
+
+
+

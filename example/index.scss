@@ -1,0 +1,9 @@
+@import "../src/index";
+
+h1 {
+  font-size: px2rem(100);
+}
+
+h2 {
+  font-size: rem2px(1);
+}
