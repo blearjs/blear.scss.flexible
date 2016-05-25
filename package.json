@@ -16,7 +16,10 @@
   "main": "src/index.js",
   "keywords": [
     "blear",
-    "__template__",
+    "scss",
+    "flexible",
+    "mixin",
+    "rem",
     "cloudcome",
     "ydr.me"
   ],
