@@ -1,7 +1,7 @@
 {
   "name": "blear.scss.flexible",
   "version": "1.0.0",
-  "description": "SCSS：mixin flexible",
+  "description": "SCSS：function flexible",
   "scripts": {
     "live": "browser-sync start --config bs-config.js"
   },
