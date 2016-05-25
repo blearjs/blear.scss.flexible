@@ -1,7 +1,7 @@
 {
-  "name": "blear.xxx",
+  "name": "blear.scss.flexible",
   "version": "1.0.0",
-  "description": "描述",
+  "description": "SCSS：mixin flexible",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
     "test": "node ./node_modules/.bin/karma start karma.conf.js --single-run",
@@ -26,13 +26,13 @@
     "url": "http://ydr.me"
   },
   "contributors": [],
-  "homepage": "https://github.com/blearjs/blear.xxx",
+  "homepage": "https://github.com/blearjs/blear.scss.flexible",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blearjs/blear.xxx"
+    "url": "https://github.com/blearjs/blear.scss.flexible"
   },
   "bugs": {
-    "url": "https://github.com/blearjs/blear.xxx/issues"
+    "url": "https://github.com/blearjs/blear.scss.flexible/issues"
   },
   "dependencies": {},
   "peerDependencies": {},
